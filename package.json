@@ -1,0 +1,32 @@
+{
+  "name": "rbcart",
+  "version": "1.0.0",
+  "description": "ecommerce using MERN",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "dev": "set NODE_ENV=development&&nodemon backend/server.js",
+    "prod": "set NODE_ENV=production&&nodemon backend/server.js",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "author": "Raghulbheeman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.3.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "redux": "^4.2.1",
+    "stripe": "^12.16.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
